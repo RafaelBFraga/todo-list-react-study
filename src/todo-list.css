@@ -1,0 +1,45 @@
+.todo {
+  border-left: solid;
+  border-left-color: green;
+  background-color: lightgreen;
+  width: 150px;
+}
+
+.header {
+  padding: 20px 10px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.todone {
+  border-left: solid;
+  border-left-color: red;
+  background-color: palevioletred;
+  width: 150px;
+}
+
+.donelist {
+  padding: 5px;
+}
+
+.todolist {
+  padding: 5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
